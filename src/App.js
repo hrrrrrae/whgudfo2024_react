@@ -2,7 +2,8 @@
 import './App.css';
 import { FaHome } from "react-icons/fa";
 // import Hello from './01/Hello' ;
-import MyDiv1 from './02/MyDiv1';
+// import MyDiv1 from './02/MyDiv1';
+import CardMain from './03/CardMain';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
     <div className="w-full grow
                     flex flex-col justify-center items-center">
         {/* <Hello />  */}
-        <MyDiv1 />
+        {/* <MyDiv1 /> */}
+        <CardMain />
     </div>
     <footer className='w-full h-16 
                       flex justify-center items-center 
